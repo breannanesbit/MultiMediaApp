@@ -1,12 +1,16 @@
-﻿namespace Mobile_final;
+﻿using Mobile_final.ViewModels;
+
+namespace Mobile_final;
 
 public partial class MainPage : ContentPage
 {
 	int count = 0;
 
-	public MainPage()
+	public MainPage(UploadFileViewModel model)
 	{
+
 		InitializeComponent();
+		BindingContext= model;
 	}
 
 	private void OnCounterClicked(object sender, EventArgs e)
@@ -20,5 +24,7 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+	
 }
 
