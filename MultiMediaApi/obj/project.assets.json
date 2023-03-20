@@ -460,23 +460,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\josh.barlow\\.nuget\\packages\\": {},
+    "C:\\Users\\breanna.nesbit\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josh.barlow\\Source\\Repos\\MobileFinal\\MultiMediaApi\\MultiMediaApi.csproj",
+      "projectUniqueName": "C:\\Users\\breanna.nesbit\\Source\\Repos\\MobileFinal\\MultiMediaApi\\MultiMediaApi.csproj",
       "projectName": "MultiMediaApi",
-      "projectPath": "C:\\Users\\josh.barlow\\Source\\Repos\\MobileFinal\\MultiMediaApi\\MultiMediaApi.csproj",
-      "packagesPath": "C:\\Users\\josh.barlow\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josh.barlow\\Source\\Repos\\MobileFinal\\MultiMediaApi\\obj\\",
+      "projectPath": "C:\\Users\\breanna.nesbit\\Source\\Repos\\MobileFinal\\MultiMediaApi\\MultiMediaApi.csproj",
+      "packagesPath": "C:\\Users\\breanna.nesbit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\breanna.nesbit\\Source\\Repos\\MobileFinal\\MultiMediaApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\josh.barlow\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\breanna.nesbit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -532,7 +532,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
