@@ -35,11 +35,17 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
             <Button
-                Text="Upload File"
+                Text="Pick file to Upload"
                 Command="{Binding PickFileToUploadCommand}"
                 />
+
             <Label
                 Text="{Binding FilePath}"/>
+            <Button
+                Text="Upload File"
+                Command="{Binding UploadFileCommand}"
+                />
+            <Label Text="{Binding Blobkey}"/>
 
         </VerticalStackLayout>
     </ScrollView>
