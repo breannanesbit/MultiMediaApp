@@ -16,8 +16,14 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+		builder.Services.AddSingleton(c => new HttpClient()
+		{
+			BaseAddress = new Uri("http://localhost:5102/Media/")
+		});
+
 		builder.Services.AddSingleton<UploadFileViewModel>();
 		builder.Services.AddSingleton<MainPage>();
+	
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
