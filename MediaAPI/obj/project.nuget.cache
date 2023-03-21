@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h4cy0Ev7YQTZQUFPxb6Yo1H9Jv8IpyYt+UtvIjBShOH9Awhio7JXAJgzol3O27M4xEuC6ljG6kspzYHpKJsZxw==",
+  "dgSpecHash": "LNsE6TQckUQtHVR5jGafEtZyiXdQIOdwsD8dGkCiVNx+rkxytqP1jHFp8HAOTDW4i5zaX0LCLKbWa3Efp2NemA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\josh.barlow\\Source\\Repos\\MobileFinal\\MediaAPI\\MediaAPI.csproj",
+  "projectFilePath": "C:\\Users\\josh.barlow\\source\\repos\\MobileFinal\\MediaAPI\\MediaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josh.barlow\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.1\\microsoft.aspnetcore.openapi.7.0.1.nupkg.sha512",
     "C:\\Users\\josh.barlow\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

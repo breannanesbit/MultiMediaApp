@@ -33,14 +33,14 @@ namespace Mobile_final.ViewModels
         public async Task UploadFile()
         {
             using var form = new MultipartFormDataContent();
-            using var fileContent = new ByteArrayContent(await File.ReadAllBytesAsync(FilePath));
+            using var fileStream = new FileStream(FilePath, FileMode.Open);
+            using var fileContent = new StreamContent(fileStream);
             fileContent.Headers.ContentType = MediaTypeHeaderValue.Parse("multipart/form-data");
-            form.Add(fileContent, "sample name", Path.GetFileName(FilePath));
+            form.Add(fileContent, "file", Path.GetFileName(FilePath));
 
-            var response = await client.PutAsync($"uploadfile/",form);
+            var response = await client.PutAsync($"uploadfile/{Path.GetFileName(FilePath)}", form);
             Blobkey = await response.Content.ReadAsStringAsync();
 
-                //(fileContent, "formFile", );
         }
     }
 }
